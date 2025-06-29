@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Transaksi - Aplikasi Admin Perpustakaan</title>
+</head>
+<body>
+    <header>
+        <h1>Aplikasi Admin Perpustakaan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Halaman Transaksi</h2>
+        <form id="transaksiForm">
+            <label for="namaTransaksi">Nama Transaksi:</label>
+            <input type="text" id="namaTransaksi" required>
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" required>
+            <label for="kategori">Kategori:</label>
+            <input type="text" id="kategori" required>
+            <button type="submit">Simpan</button>
+        </form>
+        <h2>Daftar Transaksi</h2>
+        <table>
+            <tr>
+                <th>Nama Transaksi</th>
+                <th>Jumlah</th>
+                <th>Kategori</th>
+            </tr>
+            <!-- Data transaksi akan ditampilkan di sini -->
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aplikasi Admin Perpustakaan</p>
+    </footer>
+</body>
+</html>
